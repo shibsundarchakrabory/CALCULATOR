@@ -1,0 +1,53 @@
+
+
+.buttons{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 10px;
+}
+
+.buttons{
+    position:absolute;
+    align-self: center;
+    bottom: 10px;
+}
+
+
+.buttons{
+    overflow: wrap;
+}
+
+.buttons{
+    margin-bottom: 0px;
+}
+
+.buttons > .row > button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: #ff8400;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+#equals{
+    width: 120px;
+}
+
+
+#back{
+    width: 120px;
+}
+
+.row{
+    margin:  10px 0;
+    margin-bottom: 0;
+}
+
+
