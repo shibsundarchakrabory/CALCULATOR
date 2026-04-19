@@ -1,0 +1,38 @@
+Here is a precise prompt you can use. You can either paste this into a new chat with me or use it with any LLM to get the files ready for your extension       
+  system.
+
+  ---
+
+  The Prompt:
+
+  > Task: Convert my web-based Calculator project into a "CAT_SCRATCH" Extension.
+  >
+  > Project Context:
+  > I have a GitHub repository with the following files: index.html, script.js, style.css, calc.css, display.css, and buttonr.css.
+  >
+  > Requirements for the CAT_SCRATCH Standard:
+  > 1. Manifest File: Create a manifest.json that includes:
+  >    - id: "shib-calculator-glass"
+  >    - name: "Glassmorphism Calculator"
+  >    - version: "1.0.0"
+  >    - author: "shibsundarchakrabory"
+  >    - main: "index.html"
+  >    - category: "Tools"
+  >    - List all CSS files in a styles array and script.js in a scripts array.
+  >
+  > 2. Code Audit: Review index.html and ensure all paths to CSS and JS files are relative (e.g., ./style.css) so they work correctly when downloaded and        
+  extracted into a sub-folder by the Electron app.
+  >
+  > 3. Isolation: Ensure the CSS is scoped or clean enough so it doesn't "leak" styles and break the main CAT_SCRATCH application when loaded (e.g., avoid       
+  styling the body tag directly if possible, or wrap the calculator in a #calculator-root div).
+  >
+  > Please provide:
+  > 1. The complete manifest.json file.
+  > 2. The updated index.html with correct relative paths.
+  How to use this:
+   1. If you use this with me: Just say "Run this prompt on the Calculator project," and I will generate the code for you right now based on what I saw in your  
+      repo.
+   2. If you use it elsewhere: It provides enough context for any AI to give you the exact files you need to upload back to GitHub.
+
+  Do you want me to run this "Conversion" for you right now?
+

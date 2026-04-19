@@ -4,7 +4,7 @@
 
 
 
-.calculator{
+#calculator-root .calculator{
     width: 350px;
     background: #212121;
     display: flex;
