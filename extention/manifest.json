@@ -1,0 +1,18 @@
+{
+    "id": "shib-calculator-glass",
+    "name": "Glassmorphism Calculator",
+    "version": "1.0.0",
+    "author": "shibsundarchakrabory",
+    "main": "index.html",
+    "category": "Tools",
+    "description": "A sleek, functional calculator with a modern glassmorphism design.",
+    "styles": [
+        "./style.css",
+        "./display.css",
+        "./buttonr.css",
+        "./calc.css"
+    ],
+    "scripts": [
+        "./script.js"
+    ]
+}
